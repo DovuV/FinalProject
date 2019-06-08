@@ -29,30 +29,30 @@ public class menuScreen{
         redraw();
       }
      }
-  //}
-  //public void topersonTwo(){
-  //   cursor(ARROW);
-  //   if (mouseX<450&&mouseX>100&&mouseY>300&&mouseY<350) {
-  //     cursor(HAND);
-  //    if (mousePressed==true) {
-  //      screen="Two";
-  //      redraw();
-  //}
-  //   }
-  //}
-  //public  void topersonThree(){
-  //  cursor(ARROW);
-  //   if (mouseX<700&&mouseX>100&&mouseY>300&&mouseY<350) {
-  //     cursor(HAND);
-  //    if (mousePressed==true) {
-  //      screen="Three";
-  //      redraw();
-  //    }
-  //   }
-  //}
+  }
+  public void topersonTwo(){
+     cursor(ARROW);
+     if (mouseX<450&&mouseX>350&&mouseY>300&&mouseY<350) {
+       cursor(HAND);
+      if (mousePressed==true) {
+        screen="Two";
+        redraw();
+  }
+     }
+  }
+  public  void topersonThree(){
+    cursor(ARROW);
+     if (mouseX<750&&mouseX>650&&mouseY>300&&mouseY<350) {
+       cursor(HAND);
+      if (mousePressed==true) {
+        screen="Three";
+        redraw();
+      }
+     }
+  }
   
     
   
   
-}
+
 }
